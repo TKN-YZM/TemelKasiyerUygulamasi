@@ -3,7 +3,7 @@ fiyatlar={"kola":7,"cipsi":13,"elma":7,"portakal":13,"mandalina":8,"su":2} #İç
 print("Urunlerimiz: ",fiyatlar)     #Musteri ne alabilecegini görebilsin
 
 #Fiyatlara erişmek için print(fiyatlar["ürünün ismi"]) şeklinde yazdığımızda erişebiliriz Örneğin:
-#print(["cipsi"])-->13 şekilinde ekrana yazdıracaktır
+#print(fiyatlar["cipsi"])-->13 şekilinde ekrana yazdıracaktır
 
 alinan_urunler=[] #En son aldigi ürünleri göstermek için bir liste olusturduk bu listeye aldigi ürünleri eklicez (append metodu ile)
 fiyat_toplam=0    #Aldigi ürünlerin fiyat toplamını burada tutcaz
